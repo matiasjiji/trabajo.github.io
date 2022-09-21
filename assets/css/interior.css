@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700;800&display=swap');
+/*fondos asientos y borde*/
+/* Clase cero */
+.columnacero{
+    background-color: #000FC9;
+}
+
+.claseCero{
+    border: solid 3px #0074C9; 
+}
+
+/* Primera Columna */
+.primeracolumna{
+    background-color:#FE5000 ;
+}
+
+.segundaClase{
+    border: solid 3px #FE5000;
+}
+
+/* Segunda columna */
+.segundacolumna{
+    background: #1EDF00;
+}
+
+.primeraClase{
+    border: solid 3px #1EDF00;
+}
+
+/* tercera columna */
+.terceracolumna{
+    background: #FF32AA;
+}
+.terceraClase{
+    border: solid 3px #FF32AA; 
+}
+
+/*Cuarta columna*/
+.cuartacolumna{
+    background-color: #8900FE;
+}
+
+.cuartaClase{
+    border: solid 3px #8900FE;  
+}
+/*fondos asientos y borde*/
+
+body{
+    font-family: 'Blinker';
+}
+
+.menu{
+    background: #000;
+}
+
+.tipo-letra{
+    font-size: 13px;
+}
+
+.fonts{
+    font-size: 15px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.tamano-fuente{
+    font-size: 10px;
+    padding: 5px;
+}
+.table{
+    border: 1px solid #000;
+}
+thead{
+    background: #000;
+    color: #fff;
+}
+figure{
+    width: 1055px;
+    position: relative;
+}
+figure figcaption{
+    position: absolute;
+    top: 18%;
+    right: 3%;
+}
+figure img{
+    width: 100%;
+    position: relative;
+}
+.coete-asientos{
+    position: relative;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0 6px;
+    font-size: 12px;
+    line-height: 17px;
+    border-radius: 3px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.bg-boton-continuar{
+    background-color: #FE5000;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.bg-boton-continuar:hover{
+    background-color: #FE5000;
+    color: #fff;
+}
+.bg-color-cap{
+    background-color: #FE5000;
+}
+
+.bg-color-trayec{
+    background-color:#7C3288 ;
+}
+
+.bg-color-turisba{
+    background-color: #8900FE ;
+}
+
+.bg-color-primClase{
+    background-color: #1EDF00;
+}
+
+.bg-color-duoc{
+    background-color: #FF32AA;
+}
+
+.bg-color-noDisp{
+    background-color: #B1B1B1;
+}
+
+.casino{
+    border: solid 2px #000;
+    height: 150px;
+    width: 230px;
+}
+
+.estilo-tools{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+.tienda-span{
+    color: #FE5000;
+}
+footer{
+    background-image: url(../../assets/img/footer-dos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}

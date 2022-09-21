@@ -1,0 +1,50 @@
+.menu{
+    background: #000;
+}
+.img-gracias{
+    background-image: url(../../assets/img/coete.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1356px;
+    width: 100%;
+    position: relative;
+}
+.texto-gracias{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 10%;
+    border: 1px solid #fff;
+    width: 400px;
+}
+.texto-gracias h2{
+    font-size: 70px;
+    color: #1D00FF;
+    font-family: 'blinker';
+}
+
+.texto-error h4{
+    font-size: 70px;
+    font-family: 'blinker';
+    color: #2866AD;
+}
+
+.texto-error p{
+    font-size: 20px;
+    color: #2866AD;
+    font-family: 'blinker';
+}
+footer{
+    background-image: url(../../assets/img/footer-dos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.footer-opacidad{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}

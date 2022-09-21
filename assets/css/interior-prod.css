@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700;800&display=swap');
+
+body{
+    font-family: 'blinker';
+}
+.menu{
+    background: #000;
+}
+.bg-color{
+    background-color:black;
+}
+
+.estilo-titulo-prod{
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.estilo-titulo-producto{
+    font-size: 44px;
+    font-family: 'blinker';
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px
+}
+
+.tamano-card{
+width: 352px;
+background-color: black;
+color: #fff;
+border: 1px solid #fff;
+margin: 10px;
+}
+
+.card img{
+    width: 352px;
+    height: 442px;
+}
+
+.color-precio{
+    color: #FE5000;
+    font-family: 'blinker';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.techado{
+font-size: 30px;
+font-weight: 200;
+text-decoration: line-through;
+}
+
+span{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 34px;
+    text-transform: uppercase;
+
+}
+
+h5{
+    font-size: 55px;
+}
+
+.btnasientos{
+    background-color: #FE5000;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 17px;
+    color: white;
+}
+
+
+.btnasientosprobando{
+    background: #92fd70;
+    color: #000;
+}
+
+
+
+.margen-uno{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.margen{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.margen-interior{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13%;
+}
+
+.estilo-tools{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 13% ;
+}
+
+.tienda-span{
+    color: #FE5000;
+}
+
+footer{
+    background-image: url(../../assets/img/footer-dos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.lineafooter{
+    border: 1px solid white;
+}

@@ -1,0 +1,336 @@
+/*
+bg-color #000;
+color-letra #fff;
+botones #FE5000;
+título footer #1D00FF;
+contenido footer #2866AD;
+nombre de la fuente: Blinker;
+
+Parte del cohete; 
+Asistente capitán #FE5000;
+primera clase #1EDF00;
+Asis trayectoria #7C3288;
+cliente duoc #FF32AA;
+turista basico #8900FE;
+no disp #B1B1B1;
+checkout #009EE2;
+fondo formulario #EAEAEA;
+boton comprar, muchas gracias y 404 #1D00FF;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700;800&display=swap');
+
+
+
+/*PRIMERA PAGINA*/
+
+.img-header{
+    background-image: url(../../assets/img/luna-header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.nav-item  li a{
+    color: #fff;
+}
+
+.botoncito{
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'blinker';
+    font-weight: regular;
+    border-color: #fff;
+    border: 1px solid;
+}
+
+.seccion-uno-header {
+    height: 800px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+.header-seccion h1{
+    font-weight: bold;
+}
+.header-seccion p{
+    font-size: 41px;
+    font-family: 'blinker';
+    font-weight: lighter;
+}
+
+.btnnavegar a{
+    text-decoration: none;
+    color: white;
+    font-size: 'blinker';
+    font-size: 16px;
+}
+
+
+/* SECCION LUNA DOS */
+.seccion-lunados{
+    position: relative;
+    background-color: #000000;
+    -webkit-box-shadow: 0px 0px 22px 24px #000000; 
+    box-shadow: 0px 0px 22px 24px #000000;
+}
+.img-lunados{
+    background-image: url(../../assets/img/luna-dos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.texto-lunados{
+    position: absolute;
+    bottom: 8%;
+}
+
+/* SECCION LUNA DOS */
+
+
+
+.seccion-tres-sillas{
+    background-color:#000623;
+    background-image: url(../img/galaxia-sillas.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.img-asientos{
+    height: 590px;
+    width: 100%;
+    position: relative;
+}
+
+.img-asiento{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.venta-asientos {
+    position: absolute;
+    left: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .venta-asientos h3{
+    font-size: 44px;
+    font-family: 'blinker';
+  }
+  .venta-asientos h5{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'blinker';
+    color: #FE5000;
+  }
+  .venta-asientos p{
+    font-size: 20px;
+    font-family: 'blinker';
+  }
+  .venta-asientos .tachar{
+    font-size: 21px;
+    font-family: 'blinker';
+    text-decoration: line-through;
+  }
+  .btncompraheader{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 50px;
+  }
+  .btnheaderprobando a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .lunados-btn{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 10px;
+  }
+  .lunados-btn a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .btnasientos{
+    background-color: #FE5000;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  @media (min-width: 300px) and (max-width: 768px){
+    .venta-asientos {
+        position: absolute;
+        display: flex;
+        left: 40%;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .img-asiento{
+        display: flex;
+        justify-content: center;
+      }
+
+  }
+
+.bg-btnverasientos{
+    background: #000000;
+}
+.verasientos{
+    padding-top: 50px;
+    padding-bottom: 20%;  
+}
+.btnverasientos{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #000000;
+    color: white;
+}
+
+
+.img-socios{
+    background-image: url(../../assets/img/planeta-tierra.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 894px;
+}
+
+.socios{
+    background: #000000;
+}
+.opacidad-socios{
+    background: rgba(0,0,0 , 0.5);
+    height: 100%;
+}
+.titulo-socios h2{
+    font-size: 34px;
+    font-family: 'blinker';
+}
+
+
+
+
+.experiencia{
+    background: #000000;
+}
+.texto-experiencia{
+    padding-left: 50px;
+}
+.texto-experiencia h2{
+    font-size: 40px;
+    font-family: 'blinker';
+    font-weight: 400;
+}
+.texto-experiencia h5{
+    font-size: 35px;
+    color: #FE5000;
+}
+.texto-experiencia p{
+    font-size: 20px;
+    font-family: 'blinker';
+}
+
+footer{
+    background-image: url(../../assets/img/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.footer-arriba{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: end;
+}
+.pedicion-footer h2{
+    color: #1D00FF;
+    text-transform: uppercase;
+}
+.input-footer{
+    position: relative;
+}
+.input-group{
+    position: relative;
+    width: 300px;
+}
+.input-group input{
+    position: relative;
+    padding: 10px 20px;
+}
+.input-group label{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: #ccc;
+}
+
+.linea-footer{
+    border: 1px solid #fff;
+}
+
+.primera-fila{
+    padding-bottom: 80px;
+}
+
+.primera-fila h6{
+    font-size: 20px;
+    font-family: 'blinker';
+    color: #2866AD;
+}
+.primera-fila ul{
+    padding: 0;
+    margin: 0;
+}
+.primera-fila ul li{
+    list-style: none;
+    font-size: 15px;
+    font-family: 'blinker';
+    color: #2866AD;
+}
+
+.proyecto-duoc p{
+    font-size: 20px;
+    color: #2866AD;
+    display: flex;
+    flex-direction: column;
+}
+.proyecto-duoc p span{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.derechos{
+    color: #2866AD;
+    font-size: 15px;
+    font-family: 'blinker';
+}
+.direccion{
+    color: #2866AD;
+    font-family: 'blinker';
+    font-size: 15px;
+}
+.rrss i{
+    color: #2866AD;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.derechos, .direccion , .rrss{
+    padding-top: 20px;
+}
+/*TERMINO DE PRIMERA PAGINA*/

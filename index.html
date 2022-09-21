@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CDN JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- CDN FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- LINK ESTILOS PROPIOS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+
+  <body>
+    <!-- SECCION DEL MENU DE NAVEGACION -->
+    <div class="img-header">
+        <div class="menu d-flex justify-content-center">
+          <nav class="navbar navbar-expand-lg col-10 d-flex justify-content-center">
+            <div class="container-fluid">
+
+              <div class="col-3">
+                <a class="navbar-brand text-white" href="#">X-PLORACIÓN</a>
+              </div>
+
+              <button class="navbar-toggler bg-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav col-12 col-md-10 d-flex justify-content-around">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Conocenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Mi cuenta</a>
+                  </li>
+                </ul>
+                <form class="d-flex text-white col-10 col-md-3" role="search">
+                  <button class="btn btn-outline-success text-white botoncito" type="submit">Viaja a la Luna</button>
+              </form>
+              </div>
+
+
+              
+            </div>
+          </nav>
+        </div>
+
+        <div class="seccion-uno-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 header-seccion text-white">
+                <h1>Conoce la Luna</h1>
+                <p>El mejor destino del año, cotiza tu boleto y disfruta de la mejor vista.</p>
+                <div class="btnheaderprobando">
+                  <a href="./interior-dos.html" type="button" id="btncompraheader" class="btncompraheader">Compra tu pasaje</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 text-center text-white pb-4 d-flex flex-column btnnavegar">
+          <a href="#lunados">Navegar</a>
+          <i class="fa-solid fa-angles-down"></i>
+        </div>
+    </div>
+
+
+    <!-- PRIMERA SECCION -->
+    <section class="seccion-lunados">
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="img-lunados col-12" id="lunados">
+            
+          </div>
+          <div class="texto-lunados col-12 col-md-6 text-center text-white">
+            <h2>La Tierra como jamás imaginaste</h2>
+            <p>Viajar a la luna es una x-periencia maravillosa,  mirar la tierra desde otra perspectiva y deslumbrarte con las formas, luz y sombras que podrás ver por única vez, conoce nuestro recorrido, el lado oscuro, cotiza tu pasaje y viaja junto a  <span>X-pedición</span>.</p>
+          </div>
+          <div class="lunados-btn col-md-3 col-6 text-center">
+            <a href="./interior.html">Comprar tu pasaje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEGUNDA SECCION -->
+    <section class="seccion-tres-sillas">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="img-asientos">
+            <div class="img-asiento col-10 col-md-4">
+              <img src="./assets/img/asientos.png" alt="imagen de asientos" class="img-fluid">
+            </div>
+            <div class="venta-asientos text-white col-6 col-md-4">
+              <h3>Asientos Clase Turista</h3>
+              <h5>$1.500.000 <span>clp</span></h5>
+              <p class="tachar">$2.360.500clp</p>
+              <p class="col-8">Vive la experiencia de ser un asistente de capitan, asistiendo y ayudando a la tripulacion, se un Cosmonauta mas</p>
+              <div>
+                <button id="btnasientos" class="btnasientos">Compra tu pasaje</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TERCERA PARTE BOTON DE ASIENTOS -->
+    <div class="container-fluid bg-btnverasientos pt-5 pb-3">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex justify-content-center verasientos">
+              <button type="button" id="btnverasientos" class="btnverasientos">Ver todos los asientos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CUARTA PARTE -->
+    <section class="socios">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="img-socios">
+            <div class="opacidad-socios text-white col-12 text-center">
+              <div class="titulo-socios">
+                <h2 class="pb-5">Nuestros Socios</h2>
+              <div class="usuarios-socios d-flex justify-content-around flex-wrap">
+                <figure class="col-8 col-md-2">
+                  <img src="./assets/img/spacex.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-8 col-md-2">
+                  <img src="./assets/img/nasa.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-8 col-md-2">
+                  <img src="./assets/img/roscosmos.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-8 col-md-2">
+                  <img src="./assets/img/galactic.png" alt="" class="img-fluid">
+                </figure>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUINTA PARTE -->
+    <section class="experiencia">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="carusel-experiencia col-12 col-md-6 p-0">
+            <figure class="m-0">
+              <img src="assets/img/astronauta.png" alt="" class="img-fluid">
+            </figure>
+          </div>
+          <div class="texto-experiencia col-12 col-md-6 pt-3 text-white">
+            <h2>“Una experiencia maravillosa”</h2>
+            <h5>Cristan Torres Nuñez</h5>
+            <p>Pensé que no era real, pero al momento de estar en gravedad Cero y literalmente estar flotando en el espacio, fue como “WOW”, si pueden y tienen la oportunidad, no lo dejen para mañana. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas “Letraset”, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+
+          <div class="container">
+            <div class="row">
+
+                <!--  FOOTER PARTE DE ARRIBA -->
+                <div class="footer-arriba d-flex justify-content-around flex-wrap">
+                  <div class="pedicion-footer text-white col-12 col-md-5">
+                    <h2>x-pedición</h2>
+                  </div>
+                    <div class="input-group text-white col-12 col-md-5">
+                      <p>suscribete a nuestras noticias</p>
+                      <input type="text" name="email" placeholder="Ingresa tu email">
+                      <label type="button" id="btn-footer" class="btnfooter">Suscríbete</label>
+                    </div>
+                </div>
+
+                <!--  FOOTER PARTE DE ALMEDIO-->
+                <div class="footer-medio">
+                  <div class="container">
+                    <div class="row justify-content-center">
+
+                      <div class="primera-fila col-12 col-md-2 text-white">
+                        <h6>Productos</h6>
+                        <ul>
+                          <li>Shop</li>
+                          <li>Destinos</li>
+                          <li>Nuestras naves</li>
+                          <li>Precios</li>
+                        </ul>
+                      </div>
+
+                      <div class="primera-fila col-12 col-md-2 text-white">
+                        <h6>Productos</h6>
+                        <ul>
+                          <li>Shop</li>
+                          <li>Destinos</li>
+                          <li>Nuestras naves</li>
+                          <li>Precios</li>
+                        </ul>
+                      </div>
+
+                      <div class="primera-fila col-12 col-md-2 text-white">
+                        <h6>Productos</h6>
+                        <ul>
+                          <li>Shop</li>
+                          <li>Destinos</li>
+                          <li>Nuestras naves</li>
+                          <li>Precios</li>
+                        </ul>
+                      </div>
+
+                      <div class="primera-fila col-12 col-md-2 text-white">
+                        <h6>Productos</h6>
+                        <ul>
+                          <li>Shop</li>
+                          <li>Destinos</li>
+                          <li>Nuestras naves</li>
+                          <li>Precios</li>
+                        </ul>
+                      </div>
+
+                      <div class="proyecto-duoc col-12 col-md-4 text-white">
+                        <p>Proyecto apoyado por <span>Duoc UC</span></p>
+                      </div>
+
+                      <div class="linea-footer">
+                      </div>
+
+                      <!--  FOOTER PARTE FINAL -->
+                      <div class="container">
+                        <div class="row">
+
+                          <div class="derechos col-12 col-md-4">
+                            <p>Copyright © 2022  Diseño y Programación web.</p>
+                          </div>
+
+                          <div class="direccion d-flex flex-column col-12 col-md-4">
+                            <p>Términos y condiciones Políticas de privacidad</p>
+                            <p>Froilán Roa 7107, La Florida, Región Metropolitana</p>
+                          </div>
+
+                          <div class="rrss col-12 col-md-4">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </footer>
+
+
+    <script src="assets/js/mi-archivo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+
+  
+</html>

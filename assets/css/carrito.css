@@ -1,0 +1,41 @@
+.bg-color-desc{
+    background-color: #EAEAEA;
+    color:#848484 ;
+    border-radius: 0;
+    height: 35px;
+    font-size: 12px;
+    border: none;
+}
+
+
+.bg-apl-color{
+    background-color: #000;
+    color:#fff;
+    border-radius: 0;
+    height: 35px;
+    font-size: 12px;
+    border: none;
+}
+
+.actu-carrito{
+    font-size: 12px;
+    border: none;
+    background: #fff;
+}
+
+.checkout-btn button{
+    background:#009EE2 ;
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+}
+.estilo-tools{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 18px;
+}
+.tienda-span{
+    color: #FE5000;
+}
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700;800&display=swap');
+
+.menu{
+    background: #000;
+}
+.carrito {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid;
+  }
+.resumen {
+    background-color: #fff;
+    color: #000;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+thead{
+    background: #EAEAEA;
+    color: #000;
+    font-family: 'blinker';
+}
+
+.primer-carrito , .segundo-carrito{
+    background: #fff;
+    color: #000;
+    margin-bottom: 5px;
+}
+.carrito-probando{
+    background: #fff;
+    color: #000;
+}
+
+footer{
+    background-image: url(../../assets/img/footer-dos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}

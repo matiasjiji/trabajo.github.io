@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700;800&display=swap');
+body{
+    font-family: 'Blinker';
+}
+
+.bg-cohete{
+    background-image: url('../../assets/img/coete-asientos.png');
+    height: 2185px;
+    margin-right: 0;
+    position: relative;
+}
+
+.ancho{
+    max-width: 460px;
+    position: absolute;
+    right: 6%;
+    top: 20%;
+}
